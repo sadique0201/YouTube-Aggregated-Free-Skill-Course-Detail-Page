@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Aggregated Free Skill Course</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="brand">YouTube Aggregated Free Skill Course</a>
+                <ul class="nav-list">
+                    <li><a href="#course-overview">Overview</a></li>
+                    <li><a href="#video-list">Videos</a></li>
+                    <li><a href="#video-player">Player</a></li>
+                    <li><a href="#notes-tools">Notes</a></li>
+                    <li><a href="#additional-features">Features</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Course Overview Section -->
+        <section id="course-overview" class="card">
+            <h1>Course Title</h1>
+            <button id="enroll-button" class="btn">Enroll</button>
+            <div class="course-details">
+                <p><strong>Skill Level:</strong> Beginner</p>
+                <p><strong>Estimated Duration:</strong> 10 hours</p>
+                <p><strong>Total Videos:</strong> 20</p>
+                <p><strong>Average Rating:</strong> 4.5/5</p>
+                <p><strong>Instructor:</strong> John Doe</p>
+                <p><strong>Category:</strong> Web Development</p>
+                <p><strong>Description:</strong> This course covers the basics of web development, including HTML, CSS, and JavaScript. You'll learn how to create responsive and interactive web pages.</p>
+            </div>
+        </section>
+
+        <!-- Video List Section -->
+        <section id="video-list" class="card">
+            <h2>Video List</h2>
+            <ul>
+                <li class="video-item">
+                    <p><strong>Video Title 1:</strong> Introduction to HTML</p>
+                    <p>Duration: 10 mins</p>
+                    <p>Views: 1000</p>
+                    <input type="checkbox" name="completed" value="completed"> Mark as Completed
+                </li>
+                <li class="video-item">
+                    <p><strong>Video Title 2:</strong> Getting Started with CSS</p>
+                    <p>Duration: 15 mins</p>
+                    <p>Views: 2000</p>
+                    <input type="checkbox" name="completed" value="completed"> Mark as Completed
+                </li>
+                <!-- Add more videos here -->
+            </ul>
+        </section>
+
+        <!-- Video Player Section -->
+        <section id="video-player" class="card">
+            <h2>Video Player</h2>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/videoID" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p><strong>AI-Generated Summary:</strong> This is a summary of the video.</p>
+        </section>
+
+        <!-- AI Chatbox Section -->
+        <section id="ai-chatbox" class="card">
+            <h2>AI Chatbox</h2>
+            <div id="chatbox">
+                <div id="chat-messages"></div>
+                <input type="text" id="chat-input" placeholder="Ask for a summary...">
+                <button id="send-button">Send</button>
+            </div>
+        </section>
+
+        <!-- Notes and Tools Section -->
+        <section id="notes-tools" class="card">
+            <h2>Notes and Tools</h2>
+            <textarea placeholder="Add your notes here..."></textarea>
+            <p><strong>AI-Generated Questions:</strong></p>
+            <ul>
+                <li>What did you learn from this video?</li>
+                <!-- Add more questions here -->
+            </ul>
+        </section>
+
+        <!-- Additional Features Section -->
+        <section id="additional-features" class="card">
+            <h2>Progress Tracker</h2>
+            <progress value="50" max="100"></progress>
+            <h2>Job-Seeker Tips</h2>
+            <p>Sample Job Description: Front-End Developer</p>
+            <h2>Rate the Course</h2>
+            <input type="number" min="1" max="5" placeholder="Rate out of 5">
+        </section>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
